@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DDImageView" customModule="Digitat14Demo" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="YAJ-FZ-uVI"/>
+                <outlet property="favoriteImageView" destination="in8-SS-q8f" id="Swe-zZ-GmM"/>
+                <outlet property="imageView" destination="flf-fZ-5TU" id="jim-Re-IWC"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="56" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="flf-fZ-5TU">
+                    <rect key="frame" x="12" y="12" width="32" height="26"/>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="in8-SS-q8f">
+                    <rect key="frame" x="0.0" y="7.5" width="24" height="21.5"/>
+                    <color key="tintColor" systemColor="systemRedColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="in8-SS-q8f" secondAttribute="height" multiplier="1:1" id="7Z6-fU-hlJ"/>
+                        <constraint firstAttribute="width" constant="24" id="BAP-np-m16"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="flf-fZ-5TU" secondAttribute="bottom" constant="12" id="3KN-2P-UKK"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="flf-fZ-5TU" secondAttribute="trailing" constant="12" id="4oX-bT-lH5"/>
+                <constraint firstItem="flf-fZ-5TU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="12" id="AlW-a9-BXd"/>
+                <constraint firstItem="in8-SS-q8f" firstAttribute="centerY" secondItem="flf-fZ-5TU" secondAttribute="top" multiplier="1.5" id="BS0-Zq-HGV"/>
+                <constraint firstItem="flf-fZ-5TU" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="dnv-Ea-mt5"/>
+                <constraint firstItem="in8-SS-q8f" firstAttribute="centerX" secondItem="flf-fZ-5TU" secondAttribute="leading" id="kfD-hZ-5WI"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-121.73913043478262" y="-152.67857142857142"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="heart.fill" catalog="system" width="128" height="109"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
