@@ -24,7 +24,6 @@
 		135AFF4B26C1982200C4DE6E /* DDTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135AFF3E26C1982200C4DE6E /* DDTableViewController.swift */; };
 		135AFF4C26C1982200C4DE6E /* DDDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135AFF3F26C1982200C4DE6E /* DDDetailViewController.swift */; };
 		135AFF4D26C1982200C4DE6E /* SeatGeekAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135AFF4126C1982200C4DE6E /* SeatGeekAPI.swift */; };
-		135AFF4E26C1982200C4DE6E /* DDNetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135AFF4226C1982200C4DE6E /* DDNetworkHelper.swift */; };
 		135AFF4F26C1982200C4DE6E /* DDSeatGeekResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135AFF4426C1982200C4DE6E /* DDSeatGeekResponse.swift */; };
 		135AFF5A26C1987900C4DE6E /* ViewController+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135AFF5126C1987900C4DE6E /* ViewController+Helper.swift */; };
 		135AFF5B26C1987900C4DE6E /* SceneBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135AFF5226C1987900C4DE6E /* SceneBuilder.swift */; };
@@ -79,7 +78,6 @@
 		135AFF3E26C1982200C4DE6E /* DDTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDTableViewController.swift; sourceTree = "<group>"; };
 		135AFF3F26C1982200C4DE6E /* DDDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDDetailViewController.swift; sourceTree = "<group>"; };
 		135AFF4126C1982200C4DE6E /* SeatGeekAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeatGeekAPI.swift; sourceTree = "<group>"; };
-		135AFF4226C1982200C4DE6E /* DDNetworkHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDNetworkHelper.swift; sourceTree = "<group>"; };
 		135AFF4426C1982200C4DE6E /* DDSeatGeekResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDSeatGeekResponse.swift; sourceTree = "<group>"; };
 		135AFF5126C1987900C4DE6E /* ViewController+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+Helper.swift"; sourceTree = "<group>"; };
 		135AFF5226C1987900C4DE6E /* SceneBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneBuilder.swift; sourceTree = "<group>"; };
@@ -238,7 +236,6 @@
 			isa = PBXGroup;
 			children = (
 				135AFF4126C1982200C4DE6E /* SeatGeekAPI.swift */,
-				135AFF4226C1982200C4DE6E /* DDNetworkHelper.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -547,7 +544,6 @@
 				135AFF4D26C1982200C4DE6E /* SeatGeekAPI.swift in Sources */,
 				135AFF4A26C1982200C4DE6E /* DispatchQueueAdditions.swift in Sources */,
 				135AFEF626C1967400C4DE6E /* AppDelegate.swift in Sources */,
-				135AFF4E26C1982200C4DE6E /* DDNetworkHelper.swift in Sources */,
 				135AFF4F26C1982200C4DE6E /* DDSeatGeekResponse.swift in Sources */,
 				135AFF4926C1982200C4DE6E /* DDEventAdapter.swift in Sources */,
 				135AFEF826C1967400C4DE6E /* SceneDelegate.swift in Sources */,
